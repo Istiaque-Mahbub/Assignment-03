@@ -20,9 +20,7 @@
                 'bg-colo': '#ABEF5F80',
 
               },
-              backgroundImage: {
-                paper: "url('./assets/bg.jpg')",
-              },
+              
             }
           }
         }
@@ -32,6 +30,9 @@
 
       <!-- font awesome -->
       <script src="https://kit.fontawesome.com/1dd2faa088.js" crossorigin="anonymous"></script>
+
+      <!-- css -->
+       <link rel="stylesheet" href="./Styles/styles.css">
 
       <!-- google font -->
 
@@ -247,7 +248,7 @@
       </section>
 
       <!-- Our Latest Portfolio section -->
-       <section class="mb-24 bg-[#FFFFFF]">
+       <section class=" bg-[#FFFFFF]">
         <div class="container mx-auto py-10  lg:px-24   px-2">
 
           <!-- text -->
@@ -310,10 +311,76 @@
         </div>
        </section>
 
+       <!-- Let’s Discuss Next Project section -->
+
+       <section class=" paper-image">
+
+        <div class="container mx-auto py-24 px-2 lg:px-36 ">
+
+          <div class=" text-center space-y-5">
+            <button class="btn bg-white rounded-full"><i class="fa-solid fa-arrow-right p-2"></i>Let’s Connect</button>
+            <h2 class="font-bold text-4xl">Let’s Discuss Next Project</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full lg:w-1/2 mx-auto mt-12">
+
+            <div>
+              <input type="text" placeholder="First Name*" class="input input-bordered w-full " />
+            </div>
+            <div>
+              <input type="text" placeholder="last Name*" class="input input-bordered w-full " />
+            </div>
+            <div>
+              <input type="text" placeholder="Phone Number*" class="input input-bordered w-full " />
+            </div>
+            <div>
+              <input type="text" placeholder="Email Number*" class="input input-bordered w-full " />
+            </div>
+            
+
+            <div class="lg:col-span-2">
+              
+              <textarea rows="9" class="p-4 border-none outline-none bg-[#FFFFFF] rounded-lg w-full" name="" id=""
+                placeholder="Your message"></textarea>
+            </div>
+
+            <button class="btn bg-bg-pri text-white lg:col-span-2">Send Message</button>
+          </div>
+
+        </div>
+
+       </section>
+
     </main>
 
-    <footer>
+    <footer class="footer footer-center bg-black text-base-content rounded p-10">
 
+      <div class="flex ">
+        <span class="bg-[#ABEF5F] p-3 rounded-full">
+          <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+      </span>
+        <h1 class="font-bold text-white text-4xl ">Rinterio</h1>
+      </div>
+
+      <div>
+        <p class="opacity-70 text-sm text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+      <nav class="grid grid-cols-1 md:grid-cols-5 gap-7 text-white">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+
+      <div>
+        <button class="btn bg-[#ABEF5F] rounded-full p-4 col-span-2"><span class="font-bold text-black">View Details</span>
+          <span class="bg-black p-1 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-white" ></i></button>
+      </div>
+      
+      
     </footer>
     
 </body>
